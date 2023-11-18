@@ -7,6 +7,7 @@ import Product from './Pages/Product';
 import Cart from './Pages/Cart';
 import LoginSignup from './Pages/LoginSignup';
 import ShopPage from './Pages/ShopPage';
+import Footer from './Components/Footer/Footer';
 // import Hero from './Components/Hero/HeroSection';
 
 const App = () => {
@@ -30,6 +31,7 @@ const App = () => {
           <Route path='/login' element={<LoginSignup />} />
           
         </Routes>
+        <Footer />
       </BrowserRouter>
     </>
   )
